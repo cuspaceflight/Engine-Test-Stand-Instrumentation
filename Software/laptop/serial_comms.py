@@ -38,7 +38,7 @@ class SerialConnection:
     def connect(self) -> bool:
         #Establishes a serial connection to the ESP32 and starts a background thread to continuously read incoming data
         try:
-            self.ser = serial.Serial(self.port, self.baudrate, timeout = 0.1)
+            self.ser = serial.Serial(self.port, self.baudrate, timeout = 1)
             time.sleep(0.5)  # Give ESP32 time to reset after connection
             self._running = True
             self._reader_thread = threading.Thread(target=self._read_loop, daemon=True) #Daemon thread will close when the main program exits 
