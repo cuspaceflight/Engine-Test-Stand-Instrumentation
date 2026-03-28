@@ -46,7 +46,7 @@ class TestStandGUI(ctk.CTk):
         log_filename = datetime.datetime.now().strftime(
             "logs/log_%Y%m%d_%H%M%S.csv"
         )
-        self.log_file = open(log_filename, "w")
+        self.log_file = open(log_filename, "w", encoding="utf-8")
         self.log_file.write("timestamp,type,data\n")
 
         # Build GUI
