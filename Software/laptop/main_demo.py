@@ -34,7 +34,7 @@ class TestStandGUI(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.title("CUSF Static Fire — Ground Station")
+        self.title("CUSF Test Stand")
         self.geometry("1100x800")
 
         self.serial = None
