@@ -19,7 +19,7 @@ import threading
 import serial
 import serial.tools.list_ports
 
-from protocol import Command, Message, parse_response
+from Software.laptop.protocol_v1 import Command, Message, parse_response
 
 
 # Espressif's USB Vendor ID — used to filter the port list to actual

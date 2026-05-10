@@ -2,8 +2,8 @@
 CUSF Static Fire Test Stand — Ground Station GUI
 """
 import customtkinter as ctk
-from serial_comms import find_ports, SerialConnection
-from protocol import (
+from Software.laptop.serial_comms_v1 import find_ports, SerialConnection
+from Software.laptop.protocol_v1 import (
     SolenoidCommand, ServoCommand, StatusCommand, parse_response
 )
 

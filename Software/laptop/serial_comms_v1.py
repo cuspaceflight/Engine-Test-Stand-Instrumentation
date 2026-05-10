@@ -2,7 +2,7 @@ import serial
 import serial.tools.list_ports
 import time
 import threading
-from protocol import Command, Message, parse_response
+from Software.laptop.protocol_v1 import Command, Message, parse_response
 
 '''
 Threading = Running multiple things at the same time
