@@ -1,0 +1,29 @@
+timestamp,type,data
+2026-05-10T09:19:37.140165,SOL 1 → ON
+2026-05-10T09:19:37.756041,SOL 1 → OFF
+2026-05-10T09:19:38.968334,SOL 2 → ON
+2026-05-10T09:19:39.232142,SOL 2 → OFF
+2026-05-10T09:19:41.124684,Servo 1 → Centre (1500 µs)
+2026-05-10T09:19:41.618980,Servo 1 → Open (2500 µs)
+2026-05-10T09:19:42.102653,Servo 1 → Centre (1500 µs)
+2026-05-10T09:19:42.447733,Servo 1 → Closed (500 µs)
+2026-05-10T09:19:42.787669,Servo 1 → Centre (1500 µs)
+2026-05-10T09:19:43.195065,Servo 1 → Open (2500 µs)
+2026-05-10T09:19:43.647083,Servo 1 → Centre (1500 µs)
+2026-05-10T09:19:44.032459,Servo 1 → Closed (500 µs)
+2026-05-10T09:19:44.645331,Servo 2 → Centre (1500 µs)
+2026-05-10T09:19:45.014322,Servo 2 → Open (2500 µs)
+2026-05-10T09:19:45.424445,Servo 2 → Centre (1500 µs)
+2026-05-10T09:19:45.778380,Servo 1 → Closed (500 µs)
+2026-05-10T09:19:46.903099,Servo 3 → Centre (1500 µs)
+2026-05-10T09:19:47.299976,Servo 3 → Open (2500 µs)
+2026-05-10T09:19:47.632499,Servo 3 → Centre (1500 µs)
+2026-05-10T09:19:47.953225,Servo 3 → Closed (500 µs)
+2026-05-10T09:19:48.448712,Servo 4 → Centre (1500 µs)
+2026-05-10T09:19:48.760696,Servo 4 → Open (2500 µs)
+2026-05-10T09:19:49.099098,Servo 4 → Centre (1500 µs)
+2026-05-10T09:19:49.425764,Servo 4 → Closed (500 µs)
+2026-05-10T09:20:01.420517,Failed to connect to No ports found
+2026-05-10T09:20:01.994289,Failed to connect to No ports found
+2026-05-10T09:20:02.323299,Failed to connect to No ports found
+2026-05-10T09:20:02.512856,Failed to connect to No ports found
