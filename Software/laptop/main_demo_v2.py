@@ -679,7 +679,7 @@ if __name__ == "__main__":
 
     # ──────────────────────────────────────────────────────────────
     # Uncomment the next line to test with fake data (no ESP32):
-    # add_mock_data(app)
+    add_mock_data(app)
     # ──────────────────────────────────────────────────────────────
 
     app.mainloop()
