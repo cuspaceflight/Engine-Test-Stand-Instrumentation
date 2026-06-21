@@ -32,7 +32,7 @@ import datetime
 import customtkinter as ctk
 
 from serial_comms_v3 import find_ports, SerialConnection
-from protocol_v3 import (
+from protocol_v4 import (
     Command,
     SolenoidCommand, ServoCommand, StatusCommand,
     PingCommand, AbortCommand, ResetCommand,
