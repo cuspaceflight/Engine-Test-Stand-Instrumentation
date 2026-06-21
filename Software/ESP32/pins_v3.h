@@ -64,7 +64,7 @@
 // The SN65HVD230 converts these to the differential CAN_H / CAN_L bus.
 //   TX (ESP32 GPIO 15) → SN65HVD230 pin 1 (D — driver input)
 //   RX (ESP32 GPIO 16) ← SN65HVD230 pin 4 (R — receiver output)
-#define PIN_CAN_TX         15
-#define PIN_CAN_RX         16
+#define PIN_CAN_RX         15
+#define PIN_CAN_TX         16
 
 #endif // PINS_V3_H
