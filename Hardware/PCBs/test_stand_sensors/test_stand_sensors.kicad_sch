@@ -3730,16 +3730,6 @@
 		)
 		(uuid "f5f6072a-2e9c-4988-8653-a200c59c51a4")
 	)
-	(wire
-		(pts
-			(xy 166.37 82.55) (xy 171.45 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7430d59-5360-4844-93a3-b3da0d14426c")
-	)
 	(symbol
 		(lib_id "Regulator_Switching:TPS54302")
 		(at 144.78 31.75 0)
@@ -4568,73 +4558,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 171.45 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49acf6ef-609e-464b-ab2d-f6fb316fb2c9")
-		(property "Reference" "#PWR07"
-			(at 177.8 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 175.26 82.5499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec7ca6ed-2199-48b6-bdaf-2a646ee111f9")
-		)
-		(instances
-			(project "test_stand_sensors"
-				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 200.66 55.88 0)
 		(unit 1)
@@ -5372,6 +5295,73 @@
 			(project "test_stand_sensors"
 				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1"
 					(reference "5V1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d37ac6f-758b-4440-b0a6-9fa4fccee659")
+		(property "Reference" "#PWR086"
+			(at 172.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 82.5499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84f1c37e-2921-4a20-b588-fcbc968c6e08")
+		)
+		(instances
+			(project "test_stand_sensors"
+				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)

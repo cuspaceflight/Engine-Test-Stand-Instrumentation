@@ -1279,6 +1279,12 @@
 		)
 	)
 	(junction
+		(at 57.15 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03aed9c4-064a-49a2-a887-d83a62149670")
+	)
+	(junction
 		(at 78.74 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1313,6 +1319,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2cdb2b42-3322-4568-95ac-8ad6a98e3d28")
+	)
+	(junction
+		(at 57.15 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e7ce219-57f9-4e25-8f8c-d2799be2c468")
 	)
 	(junction
 		(at 78.74 97.79)
@@ -1513,6 +1525,12 @@
 		(uuid "c20a169f-00eb-4d50-bf40-7c4bde543787")
 	)
 	(junction
+		(at 57.15 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c27c3eb8-7caa-4b01-b7f9-5e649b00ca05")
+	)
+	(junction
 		(at 39.37 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1541,6 +1559,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db273d09-8b9b-4f39-9b1a-9ad663018c94")
+	)
+	(junction
+		(at 57.15 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e49faa51-75cb-4033-aab0-4567bb180c40")
 	)
 	(junction
 		(at 105.41 33.02)
@@ -3685,6 +3709,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f0a0265-feca-40d4-b1ed-4ba228be7c93")
+		(property "Reference" "#PWR079"
+			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f31189f2-2d61-4f3f-a3cb-3bef5c42c55b")
+		)
+		(instances
+			(project "test_stand_sensors"
+				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1/b8b4e487-4949-43bc-840a-03f84e1fe546"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 137.16 50.8 180)
 		(unit 1)
@@ -4024,6 +4115,73 @@
 			(project "test_stand_sensors"
 				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1/b8b4e487-4949-43bc-840a-03f84e1fe546"
 					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 26.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "35dcfcf6-fa10-438b-b6bb-69d80f9c76e2")
+		(property "Reference" "#PWR078"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 26.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76d568a8-318c-4fec-93c6-2ff8515efd54")
+		)
+		(instances
+			(project ""
+				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1/b8b4e487-4949-43bc-840a-03f84e1fe546"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -6218,6 +6376,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 111.76 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0a03a2c-d7dd-4017-aa75-2f40d7cd9f23")
+		(property "Reference" "#PWR080"
+			(at 63.5 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fb91685-a143-4d53-a392-bdbebc6c982e")
+		)
+		(instances
+			(project "test_stand_sensors"
+				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1/b8b4e487-4949-43bc-840a-03f84e1fe546"
+					(reference "#PWR080")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 78.74 180.34 0)
 		(unit 1)
@@ -6499,6 +6724,73 @@
 			(project "test_stand_sensors"
 				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1/b8b4e487-4949-43bc-840a-03f84e1fe546"
 					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb3e04f6-9110-4cf8-837d-315e948ce67f")
+		(property "Reference" "#PWR081"
+			(at 63.5 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 60.96 153.6699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e32ef23-a9b4-4f89-a408-e9eb1a521dfc")
+		)
+		(instances
+			(project "test_stand_sensors"
+				(path "/25595fd1-a1eb-4e85-b418-4d948d3729e1/b8b4e487-4949-43bc-840a-03f84e1fe546"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
