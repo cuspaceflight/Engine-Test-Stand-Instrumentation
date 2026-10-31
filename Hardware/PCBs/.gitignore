@@ -1,0 +1,29 @@
+# KiCad lock files
+~*.lck
+*.lck
+
+# KiCad autosave / backup files
+_autosave-*
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.bak
+*-bak
+.mcp-backups/
+
+# KiCad local/user-specific state
+*.kicad_prl
+fp-info-cache
+*.kicad_pcb.tmp
+
+# Generated reports
+*_drc_violations.json
+*-rescue.*
+*.log
+
+# Fabrication outputs (regenerate from source)
+gerbers/
+fabrication/
+*.gbr
+*.drl
+*-gerbers.zip
