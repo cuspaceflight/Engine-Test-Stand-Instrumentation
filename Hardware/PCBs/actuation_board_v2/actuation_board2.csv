@@ -1,9 +1,9 @@
 Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
 C1,1,100 nF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
 "C2,C3",2,10uF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
-C4,1,100nF,,,,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,~
-C5,1,470uF,,,,Capacitor_SMD:CP_Elec_8x10.5,~
+C5,1,470uF,,,,Capacitor_THT:CP_Radial_D10.0mm_P7.50mm,https://www.digikey.co.uk/en/products/detail/vishay-beyschlag-draloric-bc-components/MAL214291475E3/21556445
 F1,1,15A,,,,Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder,~
+"H1,H2,H3,H4",4,M3,,,,MountingHole:MountingHole_3.2mm_M3_Pad_Via,
 J1,1,SERVO1,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
 J2,1,SERVO2,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
 J3,1,SERVO3,,,,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,~
@@ -13,6 +13,5 @@ J6,1,Conn_01x11_Socket,,,,Connector_PinSocket_2.54mm:PinSocket_1x11_P2.54mm_Vert
 J7,1,Conn_01x02_Pin,,,,Connector_AMASS:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal,~
 R1,1,120,,,,Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder,~
 U1,1,SN65HVD230,,,,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
-U2,1,ESP32-S3-DevKitC,,,,Espressif:ESP32-S3-DevKitC,https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html#hardware-reference
+U2,1,ESP32-S3-DevKitC,,,,Espressif:ESP32-S3-DevKitC,
 U3,1,R-78E5.0-1.0,,,,Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT,https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf
-,4,FeeTech 180 Degrees Digital Servo 7.4V 35kg/cm FT5330M,,,,,https://uk.robotshop.com/products/feetech-180-degrees-digital-servo-74v-35kg-cm-ft5330m

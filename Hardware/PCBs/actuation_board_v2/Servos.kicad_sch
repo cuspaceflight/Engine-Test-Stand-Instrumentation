@@ -212,145 +212,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized"
 			(pin_numbers
 				(hide yes)
@@ -869,6 +730,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 80.01) (xy 146.05 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b9d8fb2-0c06-4c6d-8ad9-5395740a1f49")
+	)
+	(wire
+		(pts
 			(xy 109.22 120.65) (xy 111.76 120.65)
 		)
 		(stroke
@@ -919,16 +790,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 80.01) (xy 129.54 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61b30616-93ae-496f-8a0e-6d14e1ce3efa")
-	)
-	(wire
-		(pts
 			(xy 129.54 85.09) (xy 129.54 80.01)
 		)
 		(stroke
@@ -936,16 +797,6 @@
 			(type default)
 		)
 		(uuid "6be87b37-9787-4359-85d5-8d7ae0bcb6be")
-	)
-	(wire
-		(pts
-			(xy 146.05 130.81) (xy 111.76 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b580cf7-a45d-4eb7-b492-5b9fb6a5205c")
 	)
 	(wire
 		(pts
@@ -979,6 +830,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 130.81) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ed20eb-2828-4fa3-a70b-7cfb046fcb29")
+	)
+	(wire
+		(pts
 			(xy 111.76 107.95) (xy 111.76 120.65)
 		)
 		(stroke
@@ -999,16 +860,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 146.05 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1d49161-3561-4782-acea-306e4e4acf3d")
-	)
-	(wire
-		(pts
 			(xy 111.76 82.55) (xy 111.76 95.25)
 		)
 		(stroke
@@ -1016,6 +867,16 @@
 			(type default)
 		)
 		(uuid "dec65a73-24a0-4cda-b092-0e5cbf482866")
+	)
+	(wire
+		(pts
+			(xy 146.05 99.06) (xy 146.05 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9be3005-d0d1-4b75-bb11-cde6f788ed21")
 	)
 	(wire
 		(pts
@@ -1336,7 +1197,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_8x10.5"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
 			(at 147.0152 99.06 0)
 			(effects
 				(font
@@ -1603,145 +1464,5 @@
 				)
 			)
 		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 146.05 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ed27102b-ddc7-4298-9f00-aca073bd6e77")
-		(property "Reference" "C4"
-			(at 149.86 105.4099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 149.86 107.9499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.0152 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a175460e-de04-488c-9ab8-e9495395bcf1")
-		)
-		(pin "1"
-			(uuid "f16a46fa-a495-482c-b202-4a93b8ea824b")
-		)
-		(instances
-			(project ""
-				(path "/764dcf51-9560-49dc-8ba1-ecafee3203d8/3fff0812-449b-429e-bb1a-2540f17f91c0"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 146.05 99.06) (xy 151.13 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7255814-7547-4aec-a049-468e0b54e587")
-	)
-	(wire
-		(pts
-			(xy 151.13 99.06) (xy 151.13 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9be3005-d0d1-4b75-bb11-cde6f788ed21")
-	)
-	(wire
-		(pts
-			(xy 151.13 130.81) (xy 146.05 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb44ab7f-5501-474c-a84a-190c074b3116")
-	)
-	(wire
-		(pts
-			(xy 146.05 102.87) (xy 140.97 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a85c1fb-e96d-4feb-911f-db7cc48a73fc")
-	)
-	(wire
-		(pts
-			(xy 140.97 102.87) (xy 140.97 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "288d81cb-f86a-4ace-ad51-8d1e3fee9440")
-	)
-	(wire
-		(pts
-			(xy 140.97 77.47) (xy 146.05 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0c1f16f-e1d7-4686-85df-e7c84547bbf3")
-	)
-	(wire
-		(pts
-			(xy 146.05 77.47) (xy 146.05 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f61e217b-c8e8-4a66-88e2-4359335af26e")
 	)
 )
